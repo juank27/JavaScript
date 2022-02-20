@@ -12,5 +12,5 @@ miFuncion(2, 4);
 
 //concatenar
 function saludar(nombre) {
-    console.log('Hola ${nombre}');
+    console.log(`Hola ${nombre}`);
 }
