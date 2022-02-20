@@ -11,6 +11,6 @@ var hola = "Saludo";
 hey();
 
 function hey() {
-    console.log("Hola" + miNombree);
+   console.log("Hola" + miNombree);
 }
 var miNombree = "Juan";
