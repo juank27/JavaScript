@@ -2,7 +2,7 @@
 // /-marca -modelo
 var auto ={
 	establecimiento : "AutoMercado",
-	direccion : "cll3 No. 2-53 Ubaté Cundinamarca",
+	direccion : "cll 3 No. 2-53 Ubaté Cundinamarca",
 	telefono : "31032664578",
 	automovil_ : "",
 	automovil: function (template) {
@@ -68,17 +68,18 @@ console.log(auto.automovil_[0]);
 //cantidad de vehiculos totales
 //cantidad de vehiculos mazada
 function conteo(name_vehiculo, cant_total) {
-	var num = 0
-	for (let index = 0; index < cant_total.length; index++) {
-		if (auto.automovil_[index].modelo = name_vehiculo) {
+	let num = 0;
+	for (let index = 0; index < cant_total; index++) {
+		if (auto.automovil_[index].marca == name_vehiculo) {
 			num++;
 		}
 	}
 	return num;
 }
 
-n = conteo("mazda", 50);
-console.log(`numero de vehiculos ${n}`);
+n = conteo('mazda', 50);
+//console.log(`numero de vehiculos ${n}`);
+console.log(n);
 
 //segundo tipo de vehiculo de la tercera marca registrada
 console.log(auto.automovil_[18].modelo);
@@ -86,3 +87,5 @@ console.log(auto.automovil_[18].modelo);
 console.log(auto.direccion);
 //primer tipo de vehiculo de la primera marca registrada
 console.log(auto.automovil_[0].modelo);
+
+//console.log(auto);
