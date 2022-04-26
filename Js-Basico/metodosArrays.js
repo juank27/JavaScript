@@ -1,4 +1,4 @@
-//Array de objetos, de articulos
+//to Array de objetos, de articulos
 var articulos=[
 	{ nombre : "Bicicleta", costo : 3000 },
 	{ nombre : "TV", costo : 2500},
@@ -20,7 +20,7 @@ var nombreArticulos= articulos.map(function(articulo) {
 	return articulo.nombre;
 });
 //consultando el mapeado
-nombreArticulos // --> salida  ['Bicicleta', 'TV', 'libro', 'celular']
+nombreArticulos //--> salida  ['Bicicleta', 'TV', 'libro', 'celular']
 
 //.find()
 //retorna el objeto segun la busqueda.
