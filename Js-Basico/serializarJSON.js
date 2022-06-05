@@ -77,15 +77,15 @@ function conteo(name_vehiculo, cant_total) {
 	return num;
 }
 
-n = conteo('mazda', 50);
-//console.log(`numero de vehiculos ${n}`);
-console.log(n);
+// n = conteo('mazda', 50);
+// //console.log(`numero de vehiculos ${n}`);
+// console.log(n);
 
-//segundo tipo de vehiculo de la tercera marca registrada
-console.log(auto.automovil_[18].modelo);
-//direccion del establecimiento
-console.log(auto.direccion);
-//primer tipo de vehiculo de la primera marca registrada
-console.log(auto.automovil_[0].modelo);
+// //segundo tipo de vehiculo de la tercera marca registrada
+// console.log(auto.automovil_[18].modelo);
+// //direccion del establecimiento
+// console.log(auto.direccion);
+// //primer tipo de vehiculo de la primera marca registrada
+// console.log(auto.automovil_[0].modelo);
 
-//console.log(auto);
+console.log(auto);
